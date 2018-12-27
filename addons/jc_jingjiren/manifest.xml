@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.we7.cc" versionCode="">
+    <application setting='false'>
+        <name><![CDATA[全民经纪人赏金业务员]]></name>
+        <identifie><![CDATA[jc_jingjiren]]></identifie>
+        <version><![CDATA[1.1.4]]></version>
+        <ability><![CDATA[经纪人需求管理系统]]></ability>
+        <type><![CDATA[enterprise]]></type>
+        <description><![CDATA[经纪人需求管理系统。]]></description>
+        <author><![CDATA[优创知云]]></author>
+        <url><![CDATA[]]></url>
+        <setting><![CDATA[]]></setting>
+    </application>
+    <platform>
+        <rule embed="false" />
+        <rule embed="false" />
+        <supports>
+            <item type="wxapp" />
+        </supports>
+    </platform>
+    <bindings>
+        <menu>
+        </menu>
+        <page>
+            <entry title="首页" do="/pages/index/index" state="" direct="" />
+        </page>
+    </bindings>
+
+    <install><![CDATA[install.php]]></install>
+    <uninstall><![CDATA[uninstall.php]]></uninstall>
+    <upgrade><![CDATA[upgrade.php]]></upgrade>
+</manifest>
